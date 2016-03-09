@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+    /*    This is a "class" that styles all of the objects
+*/
+    
+    .square {
+        width: 300px;
+        height: 300px;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        position: relative;
+        left: 0%;
+    }
+    /*    This is an "id" that gives some specific styling to the first shape
+*/
+    
+    #myShapeA {
+        background-color: green;
+        transition-duration: 1s;
+        transition-timing-function: ease;
+        opacity: 0.5;
+    }
+    
+    #myShapeA:hover {
+        background-color: blue;
+    }
+    
+    .wordsInSquare {
+        font-family: "Courier New";
+        text-align: center;
+        position: relative;
+        top: 40%;
+    }
+    /*    This is an "id" that gives some specific styling to the second shape
+*/
+    
+    #myShapeB {
+        background-color: purple;
+        border-radius: 50%;
+        opacity: 0.5;
+    }
+    
+    #myShapeB:hover {
+        background-color: blue;
+        left: 20%;
+    }
+    /*    This is an "id" that gives some specific styling to the third shape
+*/
+    
+    #myShapeC {
+        background-color: pink;
+        opacity: 1.0;
+        left: 0%;
+    }
+    
+    #myShapeC:hover {
+        opacity: 0.0;
+    }
+    /*    This is an "class" that gives some specific styling to the text that says "myShapeA"
+*/
+    
+    .text {
+        font-family: "Courier New"
+    }
+    </style>
+    <title></title>
+</head>
+
+<body>
+    <!-- This is the first square.
+ -->
+    <span class="text">myShapeA</span>
+    <div class="square" id="myShapeA">
+        <h2 class=wordsInSquare>This is my shape!<h2>
+        </div>
+
+<br>
+
+<!-- This is the circle.
+ -->
+<span class="text">myShapeB<span>
+<div class = "square" id="myShapeB">
+<h2 class=wordsInSquare>This is my shape!<h2>
+</div>
+
+<!-- This is the second square.
+ -->
+
+<div class = "square" id="myShapeC">
+<h2 class=wordsInSquare>This is my shape!<h2>
+</div>
+<span class="text">myShapeC<span>
+
+
+</body>
+</html>
